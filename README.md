@@ -1,4 +1,3 @@
-
 # MCIS Task
 
 This task examines the behaviour of contributors in relation to specified tags 
@@ -19,6 +18,8 @@ Five notable metrics were selected alongside each post extracted. They include:
 
 
 ### Motivation 
+Strapi and Sanity were chosen because they are two of the most prominent Headless CMS's and 
+are considered alternatives to Wordpress.
 The table below displays the five metrics and the reasons why they were selected.
 
 | Metrics             | Motivation        |
