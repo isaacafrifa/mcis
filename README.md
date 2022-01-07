@@ -1,3 +1,4 @@
+
 # MCIS Task
 
 This task examines the behaviour of contributors in relation to specified tags 
@@ -71,7 +72,7 @@ ORDER BY p.CreationDate DESC
 
 The extracted data pertaining to the two tags yielded some interesting results. 
 The first observation was the difference in the number of posts under each tag. 
-Strapi had about 5 times the number of posts under Sanity, which is illustrated in
+Strapi had about 5 times the number of posts as compared to Sanity, which is illustrated in
 the table below.
 To understand the differences in distribution of the metrics between the tags, 
 descriptive statistical analysis was used where the averages of the other metrics (i.e. 
@@ -101,3 +102,10 @@ posts. The higher number of posts under Strapi also corresponds
 with other metrics namely comments count, views count and scores (votes). However, 
 even though Sanity has fewer posts as compared to Strapi, the average Sanity 
 post has more answers. 
+
+
+## FUTURE WORK
+
+To improve and further examine this task, extra metrics such as AcceptedAnswer 
+and its creation time should be looked at. This can be used in determining
+how long it takes for posts to be answered.
