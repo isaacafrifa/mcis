@@ -1,4 +1,3 @@
-
 # MCIS Task
 
 This task examines the behaviour of contributors in relation to specified tags 
@@ -73,9 +72,10 @@ ORDER BY p.CreationDate DESC
 The extracted data pertaining to the two tags yielded some interesting results. 
 The first observation was the difference in the number of posts under each tag. 
 Strapi had about 5 times the number of posts under Sanity, which is illustrated in
-the ReactJS program.
+the table below.
 To understand the differences in distribution of the metrics between the tags, 
-the averages of the other metrics(i.e. Answer Count, Score, Comment Count and View
+descriptive statistical analysis was used where the averages of the other metrics (i.e. 
+Answer Count, Score, Comment Count and View
 Count) were computed. Below are the figures of each metric.
 
 | Metrics             | Strapi        | Sanity |
@@ -88,7 +88,7 @@ Count) were computed. Below are the figures of each metric.
 
 
 
-## Screenshot
+### Screenshot
 
 ![Charts Screenshot](./screenshot.png)
 
@@ -96,5 +96,8 @@ Count) were computed. Below are the figures of each metric.
 
 
 ## Conclusions
-
-What did you derive from your analysis? State your conclusions.
+The findings show that Strapi is more popular than Sanity, based on its total number of 
+posts. The higher number of posts under Strapi also corresponds 
+with other metrics namely comments count, views count and scores (votes). However, 
+even though Sanity has fewer posts as compared to Strapi, the average Sanity 
+post has more answers. 
