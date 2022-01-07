@@ -11,13 +11,12 @@ const row = d => {
 }
 
 const PostCountChart = () => {
-
+// UseState Hook & useEffect Hook
     const [data, setData] = useState([]);
 
     //This useEffect function runs once
     useEffect(() => {
         csv(url, row).then(data => {
-            // console.log(data)
             setData(data)
         })
     }, [])

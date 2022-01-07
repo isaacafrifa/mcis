@@ -104,7 +104,7 @@ even though Sanity has fewer posts as compared to Strapi, the average Sanity
 post has more answers. 
 
 
-## FUTURE WORK
+## Future Work
 
 To improve and further examine this task, extra metrics such as AcceptedAnswer 
 and its creation time should be looked at. This can be used in determining
