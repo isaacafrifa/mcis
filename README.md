@@ -12,10 +12,10 @@ of January, 2021 and June, 2021 (a 6-month period).
 ## Metrics
 Five notable metrics were selected alongside each post extracted. They include:
 + Answer Count 
-+ Score (votes)
-+ Created Time 
-+ Comments
++ Score (votes) 
++ Comments Count
 + View Count
++ Post Count
 
 
 ### Motivation 
@@ -26,8 +26,15 @@ The table below displays the five metrics and the reasons why they were selected
 | Answer Count | To know the number of answers the posts had. |
 | Score|  To verify the quality of the post, whether users approve them or not. |
 | Comment Count |  To determine how users engage with posts.|
-| Created Time |  To help determine when posts are usually published. |
 | View Count |  To know the number of views a post has and compare with the answer count of posts. |
+| Post Count |  To ultimately compare the popularity of a tag. |
+
+## Tech Stack 
+
+Languages: React JavaScript and SQL
+
+Library: [Victory](https://formidable.com/open-source/victory/gallery) 
+
 
 
 
@@ -61,14 +68,33 @@ ORDER BY p.CreationDate DESC
 
 ```
 
-## Analysis
+## Findings
 
-The data extracted from stackOverflow  .....
-[Documentation](https://linktodocumentation)
+The extracted data pertaining to the two tags yielded some interesting results. 
+The first observation was the difference in the number of posts under each tag. 
+Strapi had about 5 times the number of posts under Sanity, which is illustrated in
+the ReactJS program.
+To understand the differences in distribution of the metrics between the tags, 
+the averages of the other metrics(i.e. Answer Count, Score, Comment Count and View
+Count) were computed. Below are the figures of each metric.
+
+| Metrics             | Strapi        | Sanity |
+| ----------------- | ------------------- |  ------------------- |
+| Answer Count (Avg) | 0.68  |  0.77    |
+| Score (Avg)         | 0.51  |   0.47  |
+| Comment Count (Avg) |  0.77 |   0.52  |
+| View Count (Avg)  |  276.09  |  240.62    |
+| Post Count        |   351 |    66  |
+
+
+
+## Screenshot
+
+![Charts Screenshot](./screenshot.png)
 
 
 
 
-## Results
+## Conclusions
 
 What did you derive from your analysis? State your conclusions.
